@@ -1299,3 +1299,380 @@ header {
 
 }
 <a href="#" class="logo">Raja Digital</a>
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Main reference design */
+    .page {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .main-design {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
+
+    /* Clickable areas */
+    .click-home,
+    .click-services,
+    .click-portfolio,
+    .click-about,
+    .click-contact,
+    .click-talk,
+    .click-work,
+    .click-hire,
+    .service-one,
+    .service-two,
+    .service-three,
+    .service-four {
+        display: none;
+    }
+
+    /* General sections */
+    .section-container {
+        width: 90%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 60px 0;
+        box-sizing: border-box;
+    }
+
+    /* Headings */
+    .section-tag {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .section-container h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .section-text {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    /* =========================
+       SERVICES
+       ========================= */
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .service-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* =========================
+       PORTFOLIO
+       ========================= */
+
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .portfolio-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .portfolio-real-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+
+    /* =========================
+       ABOUT
+       ========================= */
+
+    .about-content {
+        display: block;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-highlights {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-top: 30px;
+    }
+
+    .about-highlight-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* =========================
+       WHY CHOOSE ME
+       ========================= */
+
+    .why-me {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0;
+        box-sizing: border-box;
+    }
+
+    .why-me-heading h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .why-me-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .why-me-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* =========================
+       CONTACT
+       ========================= */
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .contact-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    .footer-container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+}/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Main reference design */
+    .page {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .main-design {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
+
+    /* Clickable areas */
+    .click-home,
+    .click-services,
+    .click-portfolio,
+    .click-about,
+    .click-contact,
+    .click-talk,
+    .click-work,
+    .click-hire,
+    .service-one,
+    .service-two,
+    .service-three,
+    .service-four {
+        display: none;
+    }
+
+    /* General sections */
+    .section-container {
+        width: 90%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 60px 0;
+        box-sizing: border-box;
+    }
+
+    /* Headings */
+    .section-tag {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .section-container h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .section-text {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    /* =========================
+       SERVICES
+       ========================= */
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .service-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* =========================
+       PORTFOLIO
+       ========================= */
+
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .portfolio-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .portfolio-real-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+
+    /* =========================
+       ABOUT
+       ========================= */
+
+    .about-content {
+        display: block;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-highlights {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-top: 30px;
+    }
+
+    .about-highlight-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* =========================
+       WHY CHOOSE ME
+       ========================= */
+
+    .why-me {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0;
+        box-sizing: border-box;
+    }
+
+    .why-me-heading h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .why-me-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .why-me-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* =========================
+       CONTACT
+       ========================= */
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .contact-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    .footer-container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding: 20px 15px;
+    }
+
+}
